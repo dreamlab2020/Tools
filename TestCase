@@ -7,5 +7,7 @@
 
         private static void excute(DataTable table)
         {
+            //GetDuplicate keep one item.
+            table = TableOperator.GetDuplicate(table);
             //do something.
         }
