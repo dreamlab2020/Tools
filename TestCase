@@ -1,0 +1,11 @@
+        static void Main()
+        {
+            //Load from excel or other data source.
+            DataSet ds = new DataSet();
+            ParallelOperator.ParallelComputing(ds, excute);
+        }
+
+        private static void excute(DataTable table)
+        {
+            //do something.
+        }
